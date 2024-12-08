@@ -1,6 +1,6 @@
 pub fn main() {
     let gift_message = String::from("Merry Christmas! Enjoy your gift!");
-    attach_message_to_present(gift_message); // <-- Add a `.clone()` here!
+    attach_message_to_present(gift_message.clone()); // <-- Add a `.clone()` here!
 
     println!("{}", gift_message);
 }
