@@ -1,3 +1,5 @@
+pub mod challenges;
+
 fn main() {
-    println!("Hello, world!");
+    challenges::day_01::main();
 }
